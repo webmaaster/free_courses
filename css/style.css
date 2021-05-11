@@ -1,0 +1,87 @@
+--------------------------------------------------------
+/*BASE STYLE */
+--------------------------------------------------------
+* {
+  background-color: lightgreen;
+  -moz-box-sizing: border-box; /*Firefox */
+  -webkit-box-sizing: border-box;/*Chrome, Safary */
+  box-sizing: border-box;/*IE */
+}
+
+#container {
+  width: 1000px;
+  margin: 0 auto 0 auto;
+}
+
+/* Header style starts */
+#header {
+  background-color: lightskyblue;
+  padding: 30px;
+
+}
+
+.junior-courses {
+  background-color: yellow;
+  color: black;
+  width: 47%;
+  height: 210px;
+  float: left;
+  border: 2px crimson solid;
+  border-radius: 20px;
+  margin: 2px;
+  padding: 10px;
+  
+}
+.clear {
+  
+}
+
+/* Header style ends */
+
+#main {
+  background-color: lightgreen;
+  padding: 50px;
+  width: 550px;
+  float: left;
+
+}
+img {
+  float: right;
+}
+
+.side-bar {
+  background-color: lightsalmon;
+  padding: 50px;
+  width: 250px;
+  float: left;
+
+}
+.side-bar2 {
+  background-color: cyan;
+  padding: 50px;
+  width: 250px;
+  float: left;
+
+}
+
+.side-bar3 {
+  background-color: yellowgreen;
+  padding: 50px;
+  width: 250px;
+  float: left;
+
+
+}
+
+
+
+.clear {
+  clear: both;
+}
+
+#footer {
+  background-color: crimson;
+  padding: 50px;
+  text-align: center;
+
+}
